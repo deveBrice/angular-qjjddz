@@ -1,0 +1,131 @@
+<!--{% extends 'base.html.twig' %}
+{% block title %}Content index{% endblock %}
+{% block stylesheets %}
+ {{ parent() }}-->
+   <link rel="stylesheet" href="{{ asset('css/content_index.css') }}" type="text/css" />
+   <link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
+<!--{% endblock %}
+{% block body %}-->
+<div class="container-fluid pl-0">
+<div class="row">
+  <div class="col-md-12">
+     <div class="row">
+      <!-- <div class="col-md-2">
+         <div class="side-board">
+           <div class="side-board-header">
+             <p>CONTENT MANAGER</p>
+           </div>
+           <div class="create-content">
+            <ul>
+              <li>
+                <a href="#"><p>Create content</p></a>
+              </li>
+            </ul>
+           </div>
+        </div>
+      </div>-->
+       <div class="col-md-8 offset-md-2" >
+         <div class="body-container">
+       <!-- {% if content is not defined %}-->
+            <div class="error-no-records">
+              <div class="alert alert-danger error-message" role="alert">
+                <p>no records found</p>
+              </div>
+            </div>
+        <!-- {% endif %}-->
+          <div class="table-fixed">
+          <!--<div class="linear-gradient">
+            <h4>List of content</h4>
+          </div>-->
+          <table class="table table-striped">
+ 
+          
+        <thead class="thead-dark">
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+     <tbody>
+            <tr>
+              <td>Smith</td>
+              <td>50</td>
+              <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
+              <td>aaaaaaaaa</td>
+            </tr>
+            <tr>
+           
+              <td>Jackson</td>
+              <td>94</td>
+              <td>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
+              <td>aaaaaaaaa</td>
+            </tr>
+            
+             <tr>
+              <td>Smith</td>
+              <td>50</td>
+              <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
+              <td>aaaaaaaaa</td>
+            </tr>
+            <tr>
+             
+              <td>Jackson</td>
+              <td>94</td>
+              <td>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
+              <td>aaaaaaaaa</td>
+            </tr>
+            <tr>
+            
+              <td>Smith</td>
+              <td>50</td>
+              <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
+              <td>aaaaaaaaa</td>
+            </tr>
+            <tr>
+           
+              <td>Jackson</td>
+              <td>94</td>
+              <td>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
+              <td>aaaaaaaaa</td>
+            </tr>
+            <tr>
+           
+              <td>Jackson</td>
+              <td>94</td>
+              <td>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
+              <td>aaaaaaaaa</td>
+            </tr>
+            <tr>
+           
+              <td>Jackson</td>
+              <td>94</td>
+              <td>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
+              <td>aaaaaaaaa</td>
+            </tr>
+            <tr>
+           
+              <td>Jackson</td>
+              <td>94</td>
+              <td>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
+              <td>aaaaaaaaa</td>
+            </tr>
+            <tr>
+           
+              <td>Jackson</td>
+              <td>94</td>
+              <td>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
+              <td>aaaaaaaaa</td>
+            </tr>
+         
+        </tbody>
+    </table>
+    </div>
+      </div>
+            <div class="create-content">
+              <input type="button" value="Create content"> 
+            </div>
+      </div>
+ </div>
+<!--{% endblock %}-->
